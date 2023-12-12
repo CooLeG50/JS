@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    overflow-x: hidden ;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+}
+header .left-side a img {
+    width: 80px;
+}
+header .right-side{
+    display: flex;
+}
+header .right-side .nav-wrapper a{
+padding: 10px;
+max-width: 10px;
+text-decoration: none;
+color: black;
+}
+
+.container{
+    max-width: 80%;
+    margin: 50px auto;
+}
+.container .left-side{
+    text-align: center;
+}
+.container .left-side h1{
+    font-size: 60px;
+letter-spacing: 2px;
+}
+.container .left-side h1 .green{
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container .left-side p{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+.container .left-side a{
+    display: inline-block;
+    text-decoration: none;
+    background: green;
+    padding: 12px 18px 12px 18px;
+    border-radius: 25px;
+    color: aliceblue;
+
+}
+thumb
